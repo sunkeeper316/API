@@ -12,6 +12,9 @@
 		A4137F05228D8EB700F30546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4137F03228D8EB700F30546 /* Main.storyboard */; };
 		A4137F07228D8EB800F30546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4137F06228D8EB800F30546 /* Assets.xcassets */; };
 		A4137F0A228D8EB800F30546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4137F08228D8EB800F30546 /* LaunchScreen.storyboard */; };
+		A4137F12228D98CF00F30546 /* NameTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4137F11228D98CF00F30546 /* NameTVC.swift */; };
+		A4137F14228D990F00F30546 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4137F13228D990F00F30546 /* Name.swift */; };
+		A4137F16228D999B00F30546 /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4137F15228D999B00F30546 /* NameCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A4137F06228D8EB800F30546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4137F09228D8EB800F30546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4137F0B228D8EB800F30546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4137F11228D98CF00F30546 /* NameTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTVC.swift; sourceTree = "<group>"; };
+		A4137F13228D990F00F30546 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		A4137F15228D999B00F30546 /* NameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,11 @@
 			children = (
 				A4137EFF228D8EB700F30546 /* AppDelegate.swift */,
 				A4137F01228D8EB700F30546 /* ViewController.swift */,
+				A4137F11228D98CF00F30546 /* NameTVC.swift */,
 				A4137F03228D8EB700F30546 /* Main.storyboard */,
+				A4137F15228D999B00F30546 /* NameCell.swift */,
 				A4137F06228D8EB800F30546 /* Assets.xcassets */,
+				A4137F13228D990F00F30546 /* Name.swift */,
 				A4137F08228D8EB800F30546 /* LaunchScreen.storyboard */,
 				A4137F0B228D8EB800F30546 /* Info.plist */,
 			);
@@ -136,6 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4137F02228D8EB700F30546 /* ViewController.swift in Sources */,
+				A4137F12228D98CF00F30546 /* NameTVC.swift in Sources */,
+				A4137F14228D990F00F30546 /* Name.swift in Sources */,
+				A4137F16228D999B00F30546 /* NameCell.swift in Sources */,
 				A4137F00228D8EB700F30546 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4AT2L8Y2T;
 				INFOPLIST_FILE = API/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4AT2L8Y2T;
 				INFOPLIST_FILE = API/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
